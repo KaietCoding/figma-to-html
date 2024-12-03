@@ -6,10 +6,111 @@
     <title>Figma to HTML</title>
     <!-- RESET CSS -->
     <link rel="stylesheet" href="./assets/css/reset.css" />
+    <!-- GOOGLE FONTS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,600;0,700;1,400&family=Sen:wght@700&display=swap"
+      rel="stylesheet"
+    />
     <!-- MAIN CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <h1>Figma to HTML</h1>
+    <header>
+      <section class="header">
+        <div class="menu">
+          <div class="logo"><img src="./assets/img/logo.svg" alt="logo" /></div>
+          <nav class="nav3">
+            <ul>
+              <li class="active"><a class="menu_link" href="#">Home</a></li>
+              <li><a class="menu_link" href="#">Course</a></li>
+              <li><a class="menu_link" href="#">Pricing</a></li>
+              <li><a class="menu_link" href="#">Reviews</a></li>
+            </ul>
+            <button class="menu_btn" type="submit">Sign Up</button>
+          </nav>
+        </div>
+      </section>
+    </header>
+    <main>
+      <!-- HERO SECTION -->
+      <div class="hero">
+        <section class="hero_section">
+          <div class="hero_left">
+            <img src="./assets/img/hero-img.jpg" alt="hero image" />
+            <div class="hero_left_content">
+              <div class="hero_left_content_item">
+                <div class="icon">
+                  <img src="./assets/icon/des.svg" alt="" />
+                </div>
+                <div class="hero_item_content">
+                  <p>20 Courses</p>
+                  <p>UI/UX Design</p>
+                </div>
+              </div>
+
+              <div class="hero_left_content_item">
+                <div class="icon icon2">
+                  <img src="./assets/icon/dev.svg" alt="" />
+                </div>
+                <div class="hero_item_content">
+                  <p>20 Courses</p>
+                  <p>Development</p>
+                </div>
+              </div>
+
+              <div class="hero_left_content_item">
+                <div class="icon icon3">
+                  <img src="./assets/icon/marketing.svg" alt="" />
+                </div>
+                <div class="hero_item_content">
+                  <p>30 Courses</p>
+                  <p>Marketing</p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="hero_right">
+            <h1>Learn without limits and spread knowledge.</h1>
+            <p>
+              Build new skills for that “this is my year” feeling with courses,
+              certificates, and degrees from world-class universities and
+              companies.
+            </p>
+            <div class="group">
+              <div><button class="btn hero_btn">See Course</button></div>
+              <div class="watch-video">
+                <div class="icon">
+                  <img src="./assets/icon/play.svg" alt="" />
+                </div>
+                <a href="">Watch Video</a>
+              </div>
+            </div>
+            <div class="recent">Recent engagement</div>
+            <p class="detail">
+              <strong>50K</strong> Student <strong>70+</strong> Courses
+            </p>
+          </div>
+        </section>
+      </div>
+
+      <!-- POPULAR COURSES SECTION -->
+      <div class="popular space">
+        <section class="main-content">
+          <div class="popular-top">
+            <div class="popular_infor">
+              <h2>Our popular courses</h2>
+              <p>
+                Build new skills with new trendy courses and shine for the next
+                future career.
+              </p>
+            </div>
+          </div>
+          <div class="course-list"></div>
+        </section>
+      </div>
+    </main>
+    <footer></footer>
   </body>
 </html>
